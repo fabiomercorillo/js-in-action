@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.cache/
+/out/
+
+# production
+/dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# lint
+.eslintcache
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.h
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+#ide
+.idea
+*.iml
+
+/infrastructure/cicd-cluster/.terraform/
+/infrastructure/cicd-cluster/.terraform.lock.hcl
+/infrastructure/cicd-cluster/cache.tfplan
+/infrastructure/cicd-cluster/kubeconfig
+
+/infrastructure/application-cluster/.terraform/
+/infrastructure/application-cluster/.terraform.lock.hcl
+/infrastructure/application-cluster/cache.tfplan
+/infrastructure/application-cluster/kubeconfig
